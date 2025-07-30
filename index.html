@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>My Awesome Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>氏名 - 所属機関</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, GitHub Pages!</h1>
+    <header>
+        <div class="container">
+            <h1>氏名 (Your Name)</h1>
+            <p>所属機関, 役職 (Affiliation, Position)</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="profile">
+            <h2>Profile</h2>
+            <div class="profile-content">
+                <! -- <img src="profile_picture.jpg" alt="プロフィール写真" class="profile-pic"> -->
+                <div class="profile-text">
+                    <p>ここに自己紹介を記述します。専門分野、研究への思い、経歴の概要などを簡潔にまとめましょう。</p>
+                    <p>例：〇〇大学で〇〇の博士号を取得後、現在は〇〇研究所にて〇〇に関する研究に従事しています。特に〇〇のメカニズム解明に興味を持っています。</p>
+                    <h3>経歴 (CV)</h3>
+                    <ul>
+                        <li>20XX年 - 現在: 〇〇研究所, 研究員</li>
+                        <li>20XX年 - 20XX年: 〇〇大学大学院 博士課程</li>
+                        <li>20XX年 - 20XX年: 〇〇大学 学部</li>
+                    </ul>
+                    <h3>受賞歴 (Awards)</h3>
+                    <ul>
+                        <li>20XX年: 〇〇学会 若手研究者奨励賞</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Publications (主要論文)</h2>
+            <p>査読付き論文の一覧です。Google Scholarやresearchmapへのリンクを貼るのも良いでしょう。</p>
+            <ul>
+                <li><strong>Your Name</strong>, Co-author, "Title of the paper", <em>Journal Name</em>, Vol. XX, No. Y, pp. ZZZ-ZZZ, 20XX. [<a href="#">DOI Link</a>]</li>
+                <li><strong>Your Name</strong>, "Another paper title", <em>Conference Proceedings</em>, pp. ZZZ-ZZZ, 20XX.</li>
+                <li>（論文をリスト形式で追加）</li>
+            </ul>
+            <p><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a></p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p>現在取り組んでいる研究テーマや、過去の研究プロジェクトについて概要を説明します。図や写真を用いると、より分かりやすくなります。</p>
+            <h3>研究テーマ1：〇〇の解析</h3>
+            <p>この研究の目的、背景、アプローチなどを記述します。</p>
+            <h3>研究テーマ2：〇〇の開発</h3>
+            <p>この研究が社会にどう貢献するかなどを記述します。</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>連絡先情報を記載します。スパム防止のため、メールアドレスの@を画像にしたり、[at]と表記することが推奨されます。</p>
+            <p>
+                Email: your-email[at]example.com<br>
+                Address: 〒XXX-XXXX 〇〇県〇〇市〇〇区...<br>
+                <a href="https://twitter.com/your_twitter_id" target="_blank" rel="noopener noreferrer">Twitter</a> /
+                <a href="https://www.linkedin.com/in/your_linkedin_id" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 氏名. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
