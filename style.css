@@ -36,11 +36,9 @@ header p {
 }
 
 header .container {
-    display: flex;                  /* ★最重要：中の要素を横並びにする */
-    justify-content: space-between; /* 両端に配置する */
-    align-items: center;            /* 縦方向の中央に揃える */
-
-    /* 以下はレイアウトを整えるための推奨設定 */
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -51,11 +49,9 @@ nav {
 }
 
 nav .container {
-    display: flex; /* Flexboxを有効にする */
-    justify-content: space-between; /* 要素を両端に配置する */
-    align-items: center; /* 要素の縦方向の位置を中央に揃える */
-    
-    /* ※サイトが広すぎるときれいに見えない場合、最大幅と中央揃えを追加 */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
