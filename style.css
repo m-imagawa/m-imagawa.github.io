@@ -177,3 +177,45 @@ footer {
         margin: 0 8px;
     }
 }
+
+/* 業績リスト全体のスタイル */
+.publications-list {
+    padding-left: 2em; /* 番号の左側の余白 */
+    line-height: 1.6;   /* 行間を少し広げる */
+}
+
+/* 個々の論文アイテムのスタイル */
+.publications-list li {
+    margin-bottom: 1.5em; /* 各論文の間の余白 */
+}
+
+/* 論文情報（著者、タイトルなど）のスタイル */
+.citation {
+    display: block; /* リンク集と改行するため */
+    margin-bottom: 5px; /* 論文情報とリンク集の間の余白 */
+}
+
+/* 雑誌名やタイトルをイタリック体に */
+.citation .journal-title,
+.citation .paper-title {
+    font-style: italic;
+}
+
+/* 巻(Volume)を太字に */
+.citation .volume {
+    font-weight: bold;
+}
+
+/* リンク集（DOI, PDFなど）のスタイル */
+.links {
+    list-style-type: none; /* ビュレット（・）を消す */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* リンクを横並びにする */
+.links li {
+    display: inline-block;
+    margin-right: 15px; /* リンク同士の余白 */
+    font-size: 0.95em;
+}
