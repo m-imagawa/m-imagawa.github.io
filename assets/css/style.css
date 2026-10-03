@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 /* ヘッダー */
@@ -87,6 +87,13 @@ main {
     padding: 40px 0;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
 section {
     background-color: #fff;
     margin-bottom: 30px;
@@ -111,9 +118,9 @@ h2 {
 }
 
 .profile-pic {
-    width: 250px;
-    height: 250px;
-    /* border-radius: 50%; */
+    width: 190px;
+    height: 190px;
+    border-radius: 6%; 
     object-fit: cover;
     /* border: 3px solid #ddd; */
 }
@@ -218,4 +225,26 @@ footer {
     display: inline-block;
     margin-right: 15px; /* リンク同士の余白 */
     font-size: 0.95em;
+}
+
+.news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.news-list li:last-child {
+    border-bottom: none;
+}
+
+.news-list time {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 0.85rem;
+    color: #777;
 }

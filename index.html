@@ -26,101 +26,80 @@
 
 
     <main class="container">
-        <section id="profile">
-            <h2>Profile</h2>
+        <section class="profile">
             <div class="profile-content">
-                  <img src="assets/img/profile_picture.jpg" alt="プロフィール写真" class="profile-pic">
+
+                <img src="assets/img/profile_picture.jpg"
+                    alt="Masaki Imagawa"
+                    class="profile-pic">
+
                 <div class="profile-text">
+                    <h2>Masaki Imagawa</h2>
+
                     <p>
                         今川 真城 (Imagawa, Masaki) <br>
                         中央研究院数学研究所　ポスドク研究員<br>
                         Adress: 106319臺北市大安區羅斯福路四段1號 天文數學館6F 626<br>
                         Email: imagawa[at]gate.sinica.edu.tw<br>
                     </p>
-                    <h3>経歴</h3>
-                    <ul>
-                        <li>2025年8月 - 現在: 中央研究院数学研究所, ポスドク研究員</li>
-                        <li>2022年4月 - 2025年7月: 京都大学大学院 情報学研究科 博士課程</li>
-                        <li>2020年4月 - 2022年3月: 京都大学大学院 情報学研究科 修士課程</li>
-                        <li>2016年4月 - 2020年3月: 京都大学 理学部</li>
-                    </ul>
+
+                    <p class="profile-links">
+                        <a href="cv.html">CV</a>
+                        <a href="research.html">Research</a>
+                        <a href="publications.html">Publications</a>
+                    </p>
                 </div>
+
             </div>
         </section>
 
+        <div class="home-grid">
+            <div class="home-main">
+                <section>
+                    <h2>Research Interests</h2>
 
-        <section id="research">
-            <h2>Research</h2>
-            <h3>Papers</h3>
-            <h4>Preprints</h4>
-                <ol reversed>
-                <li>On strong convergence of an elliptic regularization with the Neumann boundary condition applied to a stationary advection equation <a href="https://arxiv.org/abs/2303.17904">[arXiv]</a><br>
-                    <i>Joint work with Daisuke Kawagoe</i>
-                </li>
-            </ol>
-            <h4>Publised or Accepted Papers</h4>
-            <ol class="publications-list" reversed>
-                <li>
-                    <span class="citation">
-                        (with Daisuke Kawagoe)
-                        <span class="paper-title">A revisit on well-posedness of a boundary value problem of a stationary advection equation without the separation condition</span>
-                        <span class="journal-title">J. Math. Anal. Appl.</span>
-                        <span class="volume">551</span> (2025), no. 2, part 2, Art. 129695.
-                    </span>
-                    <ul class="links">
-                        <li><a href="https://doi.org/10.1016/j.jmaa.2025.129695">DOI</a></li>
-                        <li><a href="https://mathscinet.ams.org/mathscinet/article?mr=4910502">MathSciNet (MR)</a></li>
-                        <!-- <li><a href="[zbMATHのURL]">zbMATH</a></li> -->
+                    <p>
+                        Partial differential equations, conservation laws,
+                        viscous shock waves, boundary layers, and singular
+                        perturbation problems.
+                    </p>
+
+                    <p>
+                        現在は主に、保存則に現れる粘性衝撃波と境界の相互作用について研究しています。
+                    </p>
+
+                    <p>
+                        <a href="research.html">More about my research →</a>
+                    </p>
+                </section>
+            </div>
+
+            <aside class="home-sidebar">
+
+                <section class="news-section">
+                    <h2>News & Upcoming</h2>
+
+                    <ul class="news-list">
+                        <li>
+                            <time>2026.10.06</time>
+                            Seminar at National Chung Hsing University
+                        </li>
+
+                        <li>
+                            <time>2026.xx.xx</time>
+                            ...
+                        </li>
                     </ul>
-                </li>
-            </ol>
-            <h4>Refereed Conference Proceedings</h4>
-            <ol class="publications-list" reversed>
-                <li>
-                    <span class="citation">
-                    (with Yuusuke Iso)
-                    <span class="paper-title">Sharp estimates in singular perturbation applied to the first order partial differential equations in a bounded domain</span>,
-                    In: <span class="journal-title">2025 Days on Diffraction (DD)</span>,
-                    pp. 90 - 95, IEEE, 2025.
-                    <!-- [ページ番号/論文番号], [出版社], [発行年]. -->
-                    </span>
+                </section>
 
-                    <ul class="links">
-        <li><a href="https://doi.org/10.1109/DD66835.2025.11263497">DOI</a></li>
-    </ul>
-                </li>
-            </ol>
-            <h3>Presentations</h3>
-            <ol reversed>
-                <li>Stability and Boundary Interaction of Viscous Shock Waves for the Burgers Equation, 19th EASIAM Annual Meeting, Jeju, Korea, Aug. 2026</li>
-                <li>Asymptotic stability of traveling waves for scalar viscous conservation laws with boundary, 応用数学フレッシュマンセミナー, 2025年11月7日</li>
-                <li>Convergence estimates for singular perturbation of advection equations with mixed boundary conditions, 京都大学応用数学セミナー, 2025年7月</li>
-                <li>Convergence analysis of perturbed advection equations in a bounded domain, 東京大学数値解析セミナー, 2025年7月</li>
-                <li>Sharp estimates in singular perturbation applied to the first order partial differential equations in a bounded domain, Days on Diffraction 2025, online, Jun. 2025</li>
-                <li>On a Boundary Value Problem of a First-Order PDE and its Regularization Problems, 2024 Japan-Taiwan Workshop on NUmerical Analysis and Inverse Problems, Kyoto, Japan, Mar. 2024</li>
-                <li>Convergence Rates of Elliptic/Parabolic Regularization Applied to Advection Equations with Boundary Conditions,
-                    The 5th workshop on recent development of mathematical fluid dynamics and hyperbolic conservation laws, Jeju, Korea, Sep. 2023</li>
-                <li>移流方程式に適用された楕円型正則化法の最良収束率について, 日本応用数理学会第19回研究部会連合発表会, 2023年3月</li>
-                <li>On Convergence Rates of an Elliptic Regularization Applied to a Stationary Advection Equations, The 13th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics, hyblid, Mar. 2023</li>
-                <li>定常移流方程式の特異摂動解の収束率について（ポスター発表）, 第17回ICTイノベーション 2023年2月</li>
-                <li>On Convergence Estimation of Elliptic Regularization Applied to Boundary Value Problem of Advection Equations,
-                    2022 Japan-Taiwan Joint Online Workshop on NUmerical Analysis and Inverse Problem, 2022年3月</li>
-                <li>自然境界条件を伴う楕円型正則化による移流方程式の数値計算, 日本応用数理学会2021年度年会（オンライン）2021年9月</li>
-            </ol>
-        </section>
-
-        <!-- <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                Email: imagawa[at]gate.sinica.edu.tw<br>
-                Address:106319臺北市大安區羅斯福路四段1號 天文數學館6樓626
-            </p>
-        </section> -->
+            </aside>
+        </div>
+        
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Masaki Imagawa. All Rights Reserved.</p>
+            <p>&copy; 2026 Masaki Imagawa. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
