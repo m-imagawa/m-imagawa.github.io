@@ -59,15 +59,18 @@ nav .container {
 
 
 nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 18px;
+
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: right;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -129,18 +132,6 @@ h2 {
     flex: 1;
 }
 
-/* 論文・連絡先リスト */
-section ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-section ul li {
-    background-color: #f9f9f9;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-left: 4px solid #1abc9c;
-}
 
 a {
     color: #16a085;
@@ -247,4 +238,21 @@ footer {
     margin-bottom: 3px;
     font-size: 0.85rem;
     color: #777;
+}
+
+@media (max-width: 768px) {
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
 }
