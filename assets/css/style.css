@@ -45,8 +45,6 @@ header .container {
 }
 
 /* ナビゲーション */
-nav {
-}
 
 nav .container {
     display: flex; 
@@ -266,4 +264,42 @@ footer {
     nav ul {
         justify-content: center;
     }
+}
+
+.home-intro {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.home-photo {
+    flex: 0 0 auto;
+}
+
+.profile-pic {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.home-profile {
+    flex: 1;
+}
+
+.profile-name {
+    margin: 0 0 12px;
+    font-size: 2rem;
+}
+
+.position {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    margin-top: 16px;
 }
