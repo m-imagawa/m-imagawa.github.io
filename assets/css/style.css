@@ -196,6 +196,35 @@ footer {
     margin-bottom: 1.5em; /* 各論文の間の余白 */
 }
 
+
+.publication-title {
+    display: block;
+    line-height: 1.5;
+}
+
+.coauthors {
+    margin-right: 0.3em;
+}
+
+.publication-meta {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.publication-links {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.9em;
+}
+
+.publication-links li {
+    display: inline-block;
+    margin-right: 15px; /* リンク同士の余白 */
+    font-size: 0.95em;
+}
+
 /* 論文情報（著者、タイトルなど）のスタイル */
 .citation {
     display: block; /* リンク集と改行するため */
@@ -203,7 +232,7 @@ footer {
 }
 
 /* 雑誌名やタイトルをイタリック体に */
-.citation .journal-title,
+.citation .venue-title,
 .citation .paper-title {
     font-style: italic;
 }
@@ -277,11 +306,6 @@ footer {
     flex: 0 0 auto;
 }
 
-.profile-pic {
-    width: 190px;
-    height: 190px;
-    object-fit: cover;
-}
 
 .home-profile {
     flex: 1;
@@ -297,9 +321,22 @@ footer {
     line-height: 1.6;
 }
 
-.profile-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 18px;
-    margin-top: 16px;
+
+.presentation-list li {
+    margin-bottom: 1.2em;
 }
+
+.presentation-title {
+    display: block;
+    font-weight: 500;
+}
+
+.presentation-meta {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+
+
