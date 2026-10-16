@@ -98,6 +98,11 @@ nav ul li a {
     transition: color 0.3s;
 }
 
+nav ul li a[aria-current="page"] {
+    color: #1abc9c;
+    font-weight: 600;
+}
+
 nav ul li a:hover {
     color: #1abc9c;
 }
